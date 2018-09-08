@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <title>GreenBlog-blogs</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/nav.css" rel="stylesheet">
+      <link href="css/passage.css" rel="stylesheet">
+      <link href="https://fonts.css.network/css?family=Open+Sans|Roboto|Source+Sans+Pro" rel="stylesheet">
+      <script src="jquery/jquery-3.2.1.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <style>
+		.article {width:650px; margin:0 auto;}
+		.codeprint{white-space:pre-wrap;}
+		
+		
+	</style>
+   </head>	
+   <body >
+        <div style="font-family: 'Source Sans Pro', sans-serif;" class="row clearfix">
+		<div class="col-md-12 column col-lg-12 ">
+			<nav class="navbar navbar-default  navbar1-default" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle navbar1-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+					 <span class="sr-only">Toggle navigation</span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span></button> 
+					 <a style="font-size: 1.5em;font-weight: 600" class="navbar-brand navbar1-brand" href="index.html">GreenBlog</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul style="font-size: 1.2em" class="nav navbar-nav navbar1-nav">
+						<li>
+							 <a href="index.html"><span class="glyphicon glyphicon-home">&nbsp主页&nbsp</span></a>
+						</li>
+						<li>
+							 <a href="网页设计.html"><span class="glyphicon glyphicon-edit">&nbsp网页设计&nbsp</span></a>
+						</li>	
+						<li>
+							 <a href="编程技术.html"><span class="glyphicon glyphicon-comment">&nbsp编程技术&nbsp</span></a>
+						</li>
+						<li>
+							<a href="算法.html"><span class="glyphicon glyphicon-book">&nbsp算法&nbsp</span></a>
+						</li>
+						<li class="active">
+							<a href="趣味杂食.html"><span class="glyphicon glyphicon-th-large">&nbsp趣味杂食&nbsp</span></a>
+						</li>
+						
+					</ul>
+                    <ul style="font-size: 1.1em" class="nav navbar-nav navbar1-nav navbar-right">
+                    <span>&nbsp&nbsp</span>
+					<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-search"></span><strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li><form>
+								<div  class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+                                       <div class="input-group">
+                                            <input  type="text" class="form-control">
+                                               <span class="input-group-btn"> 
+
+                                                   <button  class=" btn btn-default" type="button">搜索</button>
+                                               </span>
+                                      </div>
+                                   </div>
+                               </div>
+                               </form>
+							</ul>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-menu-hamburger"></span><strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									 <a href="#">登录</a>
+								</li>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									 <a href="#">注册</a>
+								</li>
+
+							</ul>
+						</li>
+					</ul>
+				</div>				
+			</nav>
+		</div>
+        </div>
+        <div class="container-fluid">
+	    <div class="contain" style="height: 3500px;">
+		    <div class="row clearfix"> 
+		        <div class="col-md-12 column">
+		           <div style="margin: 0px auto;text-align: center;width: 1000px;height: 400px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2)"><img style="width: 500px" alt="1" src="img/passage2.jpg" /></div>		  
+			       <div class="ptitle" style="background-color: #3e3b3b;color:white;top:210px";box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2)">
+	                   <div class="title1"><h5>june,20th,2017</h5></div>
+	                   <div class="title2"><h2 style="font-weight:bold">一些有趣的flash插件</h2></div>
+	                   <h5 class="title3"> </div>			      
+			       <div class="para" style="padding-top: 60px;">
+			            <h5>转载作者：cosyer</br>
+							原网址:<a href="http://www.cnblogs.com/cosyer/p/6249309.html">http://www.cnblogs.com/cosyer/p/6249309.html</a></br></br>
+							大多数动画，来自大神aBowman，想要看更多的动画可访问：</br><a href="http://abowman.com//">http://abowman.com/</a></h5>
+				        <h2>一、人体时钟</h2>
+						<h3>1）显示效果：</h3>
+						<div id="clock" height="240" width="300" align="center"><embed height="240" width="300" type="application/x-shockwave-flash" 
+						pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_wh.swf" 
+						quality="high" autostart="1" wmode="transparent"></div>
+						<h3>2）说明</h3>
+						<p>该时钟会以“优美”的人形的数字来显示当前时间，鼠标放在上面可以放大并只显示时分秒的一个部分。盯着这玩意真的可以看一天:)。</br>可惜的是，该时钟在离开页面后（也就是看不到）再打开页面显示，会有一个调整的动画过程~~以及在到达进位的时候，过渡得依次回到0，过渡有些不自然，可能是姿势太难调整，哈哈</p>
+						<h3>3）代码：
+						<pre class="codeprint"><code>&lt;div height="120" width="150" align="center"&gt;&lt;embed height="120" width="150" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://chabudai.sakura.ne.jp/blogparts/honehoneclock/honehone_clock_wh.swf" quality="high" autostart="1" wmode="transparent"&gt;&lt;/div&gt;
+						</code></pre>
+						
+						<h2>二、用球来计时——Ball Clock</h2>
+						<h3>1）显示效果：</h3>
+						<div align="center"><object  type="application/x-shockwave-flash" style="outline:none;" data="http://cdn.abowman.com/widgets/ballclock/ballclock.swf?" width="300" height="220"><param name="movie" value="http://cdn.abowman.com/widgets/ballclock/ballclock.swf?"></param><param name="AllowScriptAccess" value="always"></param><param name="wmode" value="opaque"></param></object></div>
+						<h3>2）说明</h3>
+						<p>Ball Clock，顾名思义，就是用球来计时。我大概看了一下，第一栏每个球代表一分钟。第二栏每个球代表5分钟。第三栏每个球代表1小时。当然这只是我猜测的结果，验证就交给你帮我看完它了~~~</p>
+						<h3>3）代码：<a href="http://abowman.com/google-modules/ball-clock/#gadgetSWF">源网址</a>
+						<pre class="codeprint"><code>&lt;object type="application/x-shockwave-flash" style="outline:none;" data="http://cdn.abowman.com/widgets/ballclock/ballclock.swf?" width="300" height="220"&gt;&lt;param name="movie" value="http://cdn.abowman.com/widgets/ballclock/ballclock.swf?"&gt;&lt;/param&gt;&lt;param name="AllowScriptAccess" value="always"&gt;&lt;/param&gt;&lt;param name="wmode" value="opaque"&gt;&lt;/param&gt;&lt;/object&gt;
+						</code></pre>
+						
+						<h2>三、小松鼠——Hamster</h2>
+						<h3>1）显示效果：</h3>
+						<div align="center">
+						<object type="application/x-shockwave-flash" style="outline:none;" data="http://cdn.abowman.com/widgets/hamster/hamster.swf?" width="300" height="225"><param name="movie" value="http://cdn.abowman.com/widgets/hamster/hamster.swf?"></param><param name="AllowScriptAccess" value="always"></param><param name="wmode" value="opaque"></param></object>
+						</div>
+						<h3>2）说明</h3>
+						<p>点击动画窗口可以给松鼠进食。</br>松鼠会随着你鼠标移动。 </br>点击跑步机的圆心可以让松鼠去跑步。 </br>松鼠吃了一定数量的时候就会去喝水。我数了下，好像是个随机数，每次的数量不一定。-_-</br>当你长时间不理它的时候，它就会zzzZZZ</p>
+						<h3>3）代码：<a href="http://abowman.com/google-modules/hamster/">源网址</a>
+						<pre class="codeprint"><code>&lt;object type="application/x-shockwave-flash" style="outline:none;" data="http://cdn.abowman.com/widgets/hamster/hamster.swf?" width="300" height="225"&gt;&lt;param name="movie" value="http://cdn.abowman.com/widgets/hamster/hamster.swf?"&gt;&lt;/param&gt;&lt;param name="AllowScriptAccess" value="always"&gt;&lt;/param&gt;&lt;param name="wmode" value="opaque"&gt;&lt;/param&gt;&lt;/object&gt;
+						</code></pre>
+						
+						<h2>四、牛顿摆——Newton's Cradle</h2>
+						<h3>1）显示效果：</h3>
+						<div align="center">
+						<object type="application/x-shockwave-flash" style="outline:none;" data="http://cdn.abowman.com/widgets/newtonscradle/newtonsCradle.swf?" width="300" height="225"><param name="movie" value="http://cdn.abowman.com/widgets/newtonscradle/newtonsCradle.swf?"></param><param name="AllowScriptAccess" value="always"></param><param name="wmode" value="opaque"></param></object>
+						</div>
+						<h3>2）说明</h3>
+						<p>该牛顿摆处于非真空状态，存在摩擦力。动作和声音都做得很逼真~~~</p>
+						<h3>3）代码：<a href="http://abowman.com/google-modules/newtons-cradle/#gadgetSWF">源网址</a>
+						<pre class="codeprint"><code>&lt;object type="application/x-shockwave-flash" style="outline:none;" data="http://cdn.abowman.com/widgets/newtonscradle/newtonsCradle.swf?" width="300" height="225"&gt;&lt;param name="movie" value="http://cdn.abowman.com/widgets/newtonscradle/newtonsCradle.swf?"&gt;&lt;/param&gt;&lt;param name="AllowScriptAccess" value="always"&gt;&lt;/param&gt;&lt;param name="wmode" value="opaque"&gt;&lt;/param&gt;&lt;/object&gt;
+						</code></pre>
+						<h2>五、其余动画</h2>
+						<h3>可访问：<a href="http://abowman.com">abowman.com</a></h3>
+			        </br></br>
+			        <span class="date">
+					<img  class="icon"src="images/icon/author.png" alt=""/>
+					<span class="author">Randy</span>				
+					<img  class="icon"src="images/icon/time.png" alt=""/>
+					<span class="time">3days ago</span>
+					<img  class="icon"src="images/icon/comment.png" alt=""/>
+					<span class="comment">24</span>
+					<img  class="icon"src="images/icon/prase.png" alt=""/>
+					<span class="prase">666</span>
+				    </span>
+			        </div>
+			    </div>
+		    </div>
+	    </div>
+	    </div>
+
+        <div class="row clearfix">
+	        <div class="col-md-12 column">
+	            <div class="pcomment">
+	                <form action="" method="post" class="comment">
+		               <div style="padding-top:20px;width: 1000px;height: 300px;border-top: 1px dotted black;
+		               border-left: 1px dotted black;border-right: 1px dotted black" class="commentboard">
+		                    <div>
+		                       <h1>评论区</h1>
+		                    </div>
+		       
+		                    <div style="clear:both;height: 50px;width: 550px;">
+		                       <label>
+		                           <div style="float: left">用户：</div>
+		                           <div><input style="width: 210px" id="name" type="text" name="name"  placeholder="Name" /></div>
+		                           <div style="float: left">邮箱：</div>
+		                           <div><input style="width: 210px" id="email" type="email" name="email" placeholder="Email" /></div>   
+		                        </label> 
+		                    </div>
+		                    
+		                    <div style="clear:both;height: 100px;width: 555px;">
+		                       <label>
+		                           <div>内容:</div>
+		                           <textarea  style="width:490px ;height:100px"  id="comment" name="comment" placeholder="Please Input Your Comment"></textarea>
+		                       </label>
+		                   </div></br>
+		                   <div>
+		                       <input type="button" class="button" value="Send" />
+		                   </div>
+		                </div>
+		            </form>
+	                <div class="mediaboard">
+						<div class="media media1">
+							 <a href="#" class="pull-left">
+							    <img height="40" width="40" src="img/12.jpg" class="media-object" alt='' />
+							 </a>
+							 <div  class="media-body">
+								<h4 class="media-heading">Kobe Bryant
+								<span class="ptime">3hous ago</span>
+								</h4> good!
+							</div>	
+							<div class="media media1">
+							 <a href="#" class="pull-left"><img height="40" width="40" src="img/12.jpg" class="media-object" alt='' /></a>
+							 <div  class="media-body">
+								<h4 class="media-heading">Kobe Bryant
+								<span class="ptime">3hous ago</span>
+								</h4> good!
+							</div>	
+						    </div>
+						</div>
+	
+						<div class="media media1">
+							 <a href="#" class="pull-left"><img height="40" width="40" src="img/12.jpg" class="media-object" alt='' /></a>
+							 <div  class="media-body">
+								<h4 class="media-heading">Kobe Bryant
+								<span class="ptime">3hous ago</span>
+								</h4> good!
+							</div>	
+						</div>
+						<div class="media media1">
+							 <a href="#" class="pull-left"><img height="40" width="40" src="img/12.jpg" class="media-object" alt='' /></a>
+							 <div  class="media-body">
+								<h4 class="media-heading">Kobe Bryant
+								<span class="ptime">3hous ago</span>
+								</h4> good!
+							</div>	
+						</div>
+                    </div> 
+
+		            
+                </div>
+		    </div>	          
+        </div>
+        
+        <div class="row ">
+		<div class="col-md-12 column ">
+			<nav class="navbar navbar-default  navbar1-default" role="navigation">
+					<div class="nav navbar-nav navbar1-nav">
+					    </br>
+					    <div style="font-size: 1.1em;color: white;">&nbsp&nbsp&nbsp&nbspFollow Us&nbsp
+					    <span><img src="img/wechat.png" alt="wechat" width="25" height="25"></span>
+					    <span><img src="img/facebook.png" alt="facebook" width="25" height="25"></span>
+					    <span><img src="img/ins.png" alt="ins" width="25" height="25"></span>
+					    <span><img src="img/youtube.png" alt="youtube" width="25" height="25"></span>
+					    </div>
+					</div>	
+			</nav>
+        </div>
+        </div>
+   </body>
+</html>

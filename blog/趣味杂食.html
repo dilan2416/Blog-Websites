@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/nav.css" rel="stylesheet">
+	<link href="css/content.css" rel="stylesheet">
+	<link href="css/passage.css" rel="stylesheet">
+	<link href="https://fonts.css.network/css?family=Open+Sans|Roboto|Source+Sans+Pro" rel="stylesheet">
+	<script src="jquery/jquery-3.2.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<style type="text/css">
+          a:hover{text-decoration: none;}
+          a:visited{text-decoration: none;}
+          a:active{text-decoration: none;}
+          a:link{text-decoration: none;}
+      
+    </style>
+</head>
+<body>
+    <div class="row clearfix">
+		<div class="col-md-12 column col-lg-12 ">
+			<nav class="navbar navbar-default  navbar1-default" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle navbar1-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+					 <span class="sr-only">Toggle navigation</span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span></button> 
+					 <a style="font-size: 1.5em;font-weight: 600" class="navbar-brand navbar1-brand" href="index.html">GreenBlog</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul style="font-size: 1.2em" class="nav navbar-nav navbar1-nav">
+						<li>
+							 <a href="index.html"><span class="glyphicon glyphicon-home">&nbsp主页&nbsp</span></a>
+						</li>
+						<li>
+							 <a href="网页设计.html"><span class="glyphicon glyphicon-edit">&nbsp网页设计&nbsp</span></a>
+						</li>	
+						<li>
+							 <a href="编程技术.html"><span class="glyphicon glyphicon-comment">&nbsp编程技术&nbsp</span></a>
+						</li>
+						<li>
+							<a href="算法.html"><span class="glyphicon glyphicon-book">&nbsp算法&nbsp</span></a>
+						</li>
+						<li class="active">
+							<a href="趣味杂食.html"><span class="glyphicon glyphicon-th-large">&nbsp趣味杂食&nbsp</span></a>
+						</li>
+					</ul>
+                    <ul style="font-size: 1.1em" class="nav navbar-nav navbar1-nav navbar-right">
+                    <span>&nbsp&nbsp</span>
+					<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-search"></span><strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li><form>
+								<div  class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+                                       <div class="input-group">
+                                            <input  type="text" class="form-control">
+                                               <span class="input-group-btn"> 
+
+                                                   <button  class=" btn btn-default" type="button">搜索</button>
+                                               </span>
+                                      </div>
+                                   </div>
+                               </div>
+                               </form>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-menu-hamburger"></span><strong class="caret"></strong>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									 <a href="#">登录</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									 <a href="#">注册</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>				
+			</nav>
+		</div>
+    </div>
+    <div class="container-fluid">
+	    <div class="contain">
+		    <div class="row clearfix"> 
+		        <div class="col-md-12 column">
+		           <img style="width: 1000px" alt="1" src="img/p4.jpg" />	
+		           <div id="articles" > 
+					<!-- 标题 -->
+					<div class="sTitle">趣味杂食</div>
+		            </div>	 
+           		    <div style="float:left" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 column  ">
+					<!-- 小图片框1 -->
+					    <div class="art_card1 ">
+							<div class="pic_box">
+								<img class="pic_card" src="img/passage21.jpg" alt=""/>
+							</div>
+
+							<div class="intro">
+								<a href="passage2.html"><h2>一些有趣的flash插件</h2></a>
+								<p>分享一些有趣的flash插件，可应用于网页设计中。
+					            </p>
+							</div>
+							
+							<span class="date">
+								<img  class="icon"src="images/icon/author.png" alt=""/>
+								<span class="author">Weico</span>
+								
+								<img  class="icon"src="images/icon/time.png" alt=""/>
+								<span class="time">2days ago</span>
+								
+								<img  class="icon"src="images/icon/comment.png" alt=""/>
+								<span class="comment">23</span>
+								
+								<img  class="icon"src="images/icon/prase.png" alt=""/>
+								<span class="prase">999</span>
+							</span>
+					    </div>			      
+					<!-- 小图片框2 -->
+					    <div class="art_card1 ">
+							<div class="pic_box">
+								<img class="pic_card" src="img/p42.jpg" alt=""/>
+							</div>
+
+							<div class="intro">
+								<a href="#"><h2>C/C++趣味编程经典100例详解</h2></a>
+								<p>1.绘制余弦曲线 
+								在屏幕上用“*”显示0~360度的余弦函数cos(x)曲线 
+								*问题分析与算法设计
+								如果在程序中使用数组的话，这个问题十分简单。但若规定不能使用数组，问题就变得不容易了。
+								</p>	
+							</div>
+							
+							<span class="date">
+								<img  class="icon"src="images/icon/author.png" alt=""/>
+								<span class="author">Weico</span>
+								
+								<img  class="icon"src="images/icon/time.png" alt=""/>
+								<span class="time">2days ago</span>
+								
+								<img  class="icon"src="images/icon/comment.png" alt=""/>
+								<span class="comment">23</span>
+								
+								<img  class="icon"src="images/icon/prase.png" alt=""/>
+								<span class="prase">999</span>
+							</span>
+					    </div>			      
+					<!-- 小图片框3 -->
+					    <div class="art_card1">
+						    <div class="pic_box">
+							    <img class="pic_card" src="img/p43.jpg" alt=""/>
+						    </div>
+				
+							<div class="intro">
+								<a href="#"><h2>30年前竟是一家？Intel/AMD CPU的那些事</h2></a>
+								<p>Intel与AMD，这对“欢喜冤家”，从第一台PC诞生之日起就斗争不断，正因为有竞争对手的存在，我们才能享受到今天这丰富多彩的数字生活。
+								</p>
+							</div>
+							
+							<span class="date">
+								<img  class="icon"src="images/icon/author.png" alt=""/>
+								<span class="author">Weico</span>
+								
+								<img  class="icon"src="images/icon/time.png" alt=""/>
+								<span class="time">3days ago</span>
+								
+								<img  class="icon"src="images/icon/comment.png" alt=""/>
+								<span class="comment">32</span>
+								
+								<img  class="icon"src="images/icon/prase.png" alt=""/>
+								<span class="prase">1247</span>
+							</span>
+					    </div>			
+					<!-- 小图片框4 -->
+						<div class="art_card1">
+								<div class="pic_box">
+									<img class="pic_card" src="img/p45.jpg" alt=""/>
+								</div>
+						
+								<div class="intro">
+									<a href="#"><h2>历史惊人相似？谈Intel与高通的发展轨迹</h2></a>
+									<p>Intel，CPU界霸主。高通，移动CPU界巨头。Intel与高通，在各自的CPU市场呼风唤雨，却同样经历着一样的失误。是什么失误，让这两位主宰者碰壁？
+									</p>
+								</div>
+								
+								<span class="date">
+									<img  class="icon"src="images/icon/author.png" alt=""/>
+									<span class="author">Weico</span>
+									
+									<img  class="icon"src="images/icon/time.png" alt=""/>
+									<span class="time">4days ago</span>
+									
+									<img  class="icon"src="images/icon/comment.png" alt=""/>
+									<span class="comment">29</span>
+									
+									<img  class="icon"src="images/icon/prase.png" alt=""/>
+									<span class="prase">923</span>
+								</span>
+						</div>	
+						<!-- 小图片框5 -->
+						<div class="art_card1">
+								<div class="pic_box">
+									<img class="pic_card" src="img/p44.jpg" alt=""/>
+								</div>
+						
+								<div class="intro">
+									<a href="#"><h2>历史惊人相似？谈Intel与高通的发展轨迹</h2></a>
+									<p>Intel，CPU界霸主。高通，移动CPU界巨头。Intel与高通，在各自的CPU市场呼风唤雨，却同样经历着一样的失误。是什么失误，让这两位主宰者碰壁？
+									</p>
+								</div>
+								
+								<span class="date">
+									<img  class="icon"src="images/icon/author.png" alt=""/>
+									<span class="author">Weico</span>
+									
+									<img  class="icon"src="images/icon/time.png" alt=""/>
+									<span class="time">4days ago</span>
+									
+									<img  class="icon"src="images/icon/comment.png" alt=""/>
+									<span class="comment">29</span>
+									
+									<img  class="icon"src="images/icon/prase.png" alt=""/>
+									<span class="prase">923</span>
+								</span>
+						</div>			
+				    </div> 
+				</div>
+			</div>
+	    </div>
+	</div>
+	<div class="row ">
+		<div class="col-md-12 column ">
+			<nav class="navbar navbar-default  navbar1-default" role="navigation">
+					<div class="nav navbar-nav navbar1-nav">
+					    </br>
+					    <div style="font-size: 1.1em;color: white;">&nbsp&nbsp&nbsp&nbspFollow Us&nbsp
+					    <span><img src="img/wechat.png" alt="wechat" width="25" height="25"></span>
+					    <span><img src="img/facebook.png" alt="facebook" width="25" height="25"></span>
+					    <span><img src="img/ins.png" alt="ins" width="25" height="25"></span>
+					    <span><img src="img/youtube.png" alt="youtube" width="25" height="25"></span>
+					    </div>
+					</div>	
+			</nav>
+        </div>
+    </div>
+</body>
+</html>

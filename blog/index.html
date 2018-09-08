@@ -1,0 +1,556 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <title>GreenBlog</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/nav.css" rel="stylesheet">
+      <link href="css/index.css" rel="stylesheet">
+      <link href="https://fonts.css.network/css?family=Open+Sans|Roboto|Source+Sans+Pro" rel="stylesheet">
+      <script src="jquery/jquery-3.2.1.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <style type="text/css">
+          a:hover{text-decoration: none;}
+          a:visited{text-decoration: none;}
+          a:active{text-decoration: none;}
+          a:link{text-decoration: none;}
+
+      </style>
+   </head>
+
+   <body>
+   <div style="font-family: 'Source Sans Pro' sans-serif;" class="row clearfix">
+		<div class="col-md-12 column col-lg-12 col-sm-12 col-xs-12 ">
+			<nav class="navbar navbar-default  navbar1-default" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle navbar1-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+					 <span class="sr-only">Toggle navigation</span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span>
+					 <span class="icon-bar"></span></button> 
+					 <a style="font-size: 1.5em;font-weight: 600" class="navbar-brand navbar1-brand" href="index.html">GreenBlog</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul style="font-size: 1.2em; " class="nav navbar-nav navbar1-nav">
+						<li class="active">
+							 <a href="index.html"><span class="glyphicon glyphicon-home">&nbsp主页&nbsp</span></a>
+						</li>
+						<li>
+							 <a href="网页设计.html"><span class="glyphicon glyphicon-edit">&nbsp网页设计&nbsp</span></a>
+						</li>	
+						<li>
+							 <a href="编程技术.html"><span class="glyphicon glyphicon-comment">&nbsp编程技术&nbsp</span></a>
+						</li>
+						<li>
+							<a href="算法.html"><span class="glyphicon glyphicon-book">&nbsp算法&nbsp</span></a>
+						</li>
+						<li>
+							<a href="趣味杂食.html"><span class="glyphicon glyphicon-th-large">&nbsp趣味杂食&nbsp</span></a>
+						</li>
+						
+					</ul>
+                    <ul style="font-size: 1.1em" class="nav navbar-nav navbar1-nav navbar-right">
+                    <span>&nbsp&nbsp</span>
+					<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-search"></span><strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li><form>
+								<div  class="row">
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-8">
+                                       <div class="input-group">
+                                            <input  type="text" class="form-control">
+                                               <span class="input-group-btn"> 
+
+                                                   <button  class=" btn btn-default" type="button">搜索</button>
+                                               </span>
+                                      </div>
+                                   </div>
+                               </div>
+                               </form>
+							</ul>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							<span class="glyphicon glyphicon-menu-hamburger"></span><strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									 <a href="#">登录</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									 <a href="#">注册</a>
+								</li>
+
+							</ul>
+						</li>
+					</ul>
+				</div>				
+			</nav>
+		</div>
+	</div>
+   <div class="container">
+	    <div class="row">
+	        <div id="disp" class="col-md-12 col-lg-12 col-xs-6 col-sm-6  column ">
+		        <ul id="ul">
+			        <li><img src="images/1.jpg"></li>
+			        <li><img src="images/2.jpg"></li>
+			        <li><img src="images/3.jpg"></li>
+			        <li><img src="images/4.jpg"></li>
+		        </ul>
+		
+		    <ol id="ol">
+			    <li class="bg"></li>
+			    <li></li>
+			    <li></li>
+			    <li></li>
+		    </ol>
+		    <div id="prev"><</div>
+		    <div id="next">></div>
+		    <div id="test"></div>
+	        </div>
+	    </div>
+		<div id="articles" > 
+			  <!-- 标题 -->
+			  <div class="sTitle"><a href="网页设计.html">网页设计</a></div>
+		</div>
+		<div class="row clearfix" style="border-bottom: 1px dotted">	
+			<!-- 大图片框 -->
+			   <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 column  ">
+			       <div class="art_card2">
+				<div class="pic_box">
+					<img class="pic_card"src="img/z2.jpg" alt=""/>
+				</div>
+				
+				<div class="intro">
+					<a href="passage4.html"><h1>Web前端知识体系简要</h1></a>
+					<p>继上一篇 关于程序员求职简历 之后如果顺利的话就应该是面试了，在此也整理一下最近在网上收集的前端面试相关资料，包括Web前端技术由html、css和javascript三大部分构成，是一个庞大而复杂的技术体系，其复杂程度不低于任何一门后端语言。
+					</p>
+				</div>
+			       </div>
+		       </div>
+		     
+		    <div style="float:left" class="col-lg-5 col-md-5 col-sm-12 col-xs-12 column  ">
+			<!-- 小图片框1 -->
+			   <div class="art_card1 ">
+				<div class="pic_box">
+					<img class="pic_card"src="img/z3.jpg" alt=""/>
+				</div>
+		
+				<div class="intro">
+					<a href="passage1.html"><h2>
+						前端之路
+					</h2></a>
+					<p> 说明：本篇文章原是写给学弟学妹的，但想来花的功夫确实不少，就把此篇文章当做自己的一个阶段性总结文章了，会保持长期更新。</p>		
+				</div>
+				
+				<span class="date">
+					<img  class="icon"src="images/icon/author.png" alt=""/>
+					<span class="author">Weico</span>
+					
+					<img  class="icon"src="images/icon/time.png" alt=""/>
+					<span class="time">2days ago</span>
+					
+					<img  class="icon"src="images/icon/comment.png" alt=""/>
+					<span class="comment">23</span>
+					
+					<img  class="icon"src="images/icon/prase.png" alt=""/>
+					<span class="prase">999</span>
+				</span>
+			   </div>		
+		      
+			<!-- 小图片框2 -->
+			   <div class="art_card1">
+				<div class="pic_box">
+					<img class="pic_card"src="img/z4.jpg" alt=""/>
+				</div>
+		
+				<div class="intro">
+					<a href="#"><h2>
+						javascript中加号(+)操作符的一些神奇作用
+					</h2></a>
+					<p> 这篇文章主要介绍了javascript中加号(+)操作符的一些神奇作用,真的很神奇,例如加号可以转换数据类型，可以把日期转成整数等,需要的朋友可以参考下。</p>
+				</div>
+				
+				<span class="date">
+					<img  class="icon"src="images/icon/author.png" alt=""/>
+					<span class="author">Weico</span>
+					
+					<img  class="icon"src="images/icon/time.png" alt=""/>
+					<span class="time">3days ago</span>
+					
+					<img  class="icon"src="images/icon/comment.png" alt=""/>
+					<span class="comment">32</span>
+					
+					<img  class="icon"src="images/icon/prase.png" alt=""/>
+					<span class="prase">1247</span>
+				</span>
+			   </div>			
+			<!-- 小图片框3 -->
+			   <div class="art_card1">
+				<div class="pic_box">
+					<img class="pic_card"src="img/z1.jpg" alt=""/>
+				</div>
+		
+				<div class="intro">
+					<a href="#"><h2>avalon：小而美，轻量级前端MVVM框架
+					</h2></a>
+					<p> 迷你易用MVVM框架avalon，凭借其出色的性能表现，已成为国内举足轻重的框架。框架作者司徒正美将在本文深度剖析avalon，带你领略avalon出奇制胜之处。</p>
+				</div>
+				
+				<span class="date">
+					<img  class="icon"src="images/icon/author.png" alt=""/>
+					<span class="author">Weico</span>
+					
+					<img  class="icon"src="images/icon/time.png" alt=""/>
+					<span class="time">4days ago</span>
+					
+					<img  class="icon"src="images/icon/comment.png" alt=""/>
+					<span class="comment">29</span>
+					
+					<img  class="icon"src="images/icon/prase.png" alt=""/>
+					<span class="prase">923</span>
+				</span>
+			   </div>		
+		   </div>
+		</div>
+		<div id="articles" > 
+			  <!-- 标题 -->
+			  <div class="sTitle"><a href="编程技术.html">编程技术</a></div>
+		</div>
+		<div class="row clearfix" style="border-bottom: 1px dotted">	
+			<!-- 大图片框 -->
+			   <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 column  ">
+			       <div class="art_card2">
+				<div class="pic_box">
+					<img class="pic_card"src="img/p21.jpg" alt=""/>
+				</div>
+				
+				<div class="intro">
+					<a href="#"><h1>程序员如何积累编程技术或编程经验？</h1></a>
+					<p>工作中总是被问到程序员如何积累编程技术或编程经验？首先我认为编程是一门实践性的很强的艺术，所以貌似唯有实践才能积累。然而把它当作一个个人软件过程（PSP）的问题，总感觉是有一些规律、规则或建议可以解答。思索良久，结合自己的工作经历，尝试给出一个自己对这个问题的解答。
+					</p>
+				</div>
+			       </div>
+		       </div>
+		     
+		    <div style="float:left" class="col-lg-5  column  ">
+			<!-- 小图片框1 -->
+			   <div class="art_card1 ">
+				<div class="pic_box">
+					<img class="pic_card"src="img/P24.jpg" alt=""/>
+				</div>
+		
+				<div class="intro">
+					
+					<a href="#"><h2>个人对中国编程技术的感慨
+					</h2></a>
+					<p> 前些天, 我和公司的一位同事在聊天, 谈到了技术上的东东.他是做LINUX内核方面的, 而我是做WINDOWS服务器方面的. </p>
+				
+				</div>
+				
+				<span class="date">
+					<img  class="icon"src="images/icon/author.png" alt=""/>
+					<span class="author">Weico</span>
+					
+					<img  class="icon"src="images/icon/time.png" alt=""/>
+					<span class="time">2days ago</span>
+					
+					<img  class="icon"src="images/icon/comment.png" alt=""/>
+					<span class="comment">23</span>
+					
+					<img  class="icon"src="images/icon/prase.png" alt=""/>
+					<span class="prase">999</span>
+				</span>
+			   </div>		
+		      
+			<!-- 小图片框2 -->
+			   <div class="art_card1">
+				<div class="pic_box">
+					<img class="pic_card"src="img/p22.jpg" alt=""/>
+				</div>
+		
+				<div class="intro">
+					
+					<a href="#"><h2>C++ :: 的用法小结
+					</h2></a>
+					<p> :: 的用法小结：用于将类内声明的静态数据成员在类外初始化；用于将类内声明的函数成员在类外实现；用于捞出继承时访问权限被改变的成员，使之还原为原来的权限等。 </p>
+				
+				</div>
+				
+				<span class="date">
+					<img  class="icon"src="images/icon/author.png" alt=""/>
+					<span class="author">Weico</span>
+					
+					<img  class="icon"src="images/icon/time.png" alt=""/>
+					<span class="time">3days ago</span>
+					
+					<img  class="icon"src="images/icon/comment.png" alt=""/>
+					<span class="comment">32</span>
+					
+					<img  class="icon"src="images/icon/prase.png" alt=""/>
+					<span class="prase">1247</span>
+				</span>
+			   </div>			
+			<!-- 小图片框3 -->
+			   <div class="art_card1">
+				<div class="pic_box">
+					<img class="pic_card"src="img/P23.jpg" alt=""/>
+				</div>
+		
+				<div class="intro">
+					<a href="#"><h2>Java基础常识
+					</h2></a>
+					<p> JDK,JRE,JVM的作用及关系；java程序的最基本单位是类；Java程序的开发执行流程；Java语言严格区分大小写；标识符。 </p>
+				</div>
+				
+				<span class="date">
+					<img  class="icon"src="images/icon/author.png" alt=""/>
+					<span class="author">Weico</span>
+					
+					<img  class="icon"src="images/icon/time.png" alt=""/>
+					<span class="time">4days ago</span>
+					
+					<img  class="icon"src="images/icon/comment.png" alt=""/>
+					<span class="comment">29</span>
+					
+					<img  class="icon"src="images/icon/prase.png" alt=""/>
+					<span class="prase">923</span>
+				</span>
+			   </div>		
+		   </div>
+		</div>
+		<div id="articles" > 
+			  <!-- 标题 -->
+			  <div class="sTitle"><a href="算法.html">算法</a></div>
+		</div>
+		<div class="row clearfix" style="border-bottom: 1px dotted">	
+			<!-- 大图片框 -->
+			   <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 column  ">
+			       <div class="art_card2">
+				<div class="pic_box">
+					<img class="pic_card"src="img/p31.jpg" alt=""/>
+				</div>
+				
+				<div class="intro">
+					<a href="#"><h1>Manacher算法总结</h1></a>
+					<p>算法总结第三弹 manacher算法，前面讲了两个字符串相算法——kmp和拓展kmp，这次来还是来总结一个字符串算法，manacher算法，我习惯叫他 “马拉车”算法。
+					</p>
+				</div>
+			       </div>
+		       </div>
+		     
+		    <div style="float:left" class="col-lg-5  column  ">
+		    	<!-- 小图片框1 -->
+			   <div class="art_card1">
+				<div class="pic_box">
+					<img class="pic_card"src="img/p35.gif" alt=""/>
+				</div>
+		
+				<div class="intro">
+				    <a href="passage3.html"><h2>搜索入门</h2></a>
+					<p>一、 深度优先搜索&nbsp二、广度优先搜索&nbsp三、搜索题集整理</p>	
+				</div>
+				
+				<span class="date">
+					<img  class="icon"src="images/icon/author.png" alt=""/>
+					<span class="author">Weico</span>
+					
+					<img  class="icon"src="images/icon/time.png" alt=""/>
+					<span class="time">4days ago</span>
+					
+					<img  class="icon"src="images/icon/comment.png" alt=""/>
+					<span class="comment">29</span>
+					
+					<img  class="icon"src="images/icon/prase.png" alt=""/>
+					<span class="prase">923</span>
+				</span>
+			   </div>	
+			<!-- 小图片框2 -->
+			   <div class="art_card1 ">
+				<div class="pic_box">
+					<img class="pic_card"src="img/p32.jpg" alt=""/>
+				</div>
+		
+				<div class="intro">
+					<a href="#"><h2>人人都该了解的十大算法</h2></a>
+					<p>算法一：快速排序算法 :
+					快速排序是由东尼·霍尔所发展的一种排序算法。
+					</p>		
+				</div>
+				
+				<span class="date">
+					<img  class="icon"src="images/icon/author.png" alt=""/>
+					<span class="author">Weico</span>
+					
+					<img  class="icon"src="images/icon/time.png" alt=""/>
+					<span class="time">2days ago</span>
+					
+					<img  class="icon"src="images/icon/comment.png" alt=""/>
+					<span class="comment">23</span>
+					
+					<img  class="icon"src="images/icon/prase.png" alt=""/>
+					<span class="prase">999</span>
+				</span>
+			   </div>		
+		      
+			<!-- 小图片框3 -->
+			   <div class="art_card1">
+				<div class="pic_box">
+					<img class="pic_card"src="img/p33.jpg" alt=""/>
+				</div>
+		
+				<div class="intro">
+					<a href="#"><h2>分类算法总结</h2></a>
+					<p>目前看到的比较全面的分类算法,总结的还不错. 
+				主要分类方法介绍解决分类问题的方法很多[ ，单一的分类方法主要包括：决策树、贝叶斯、人工神经网络、K-近邻、支持向量机和基于关联规则的分类等。 
+					</p>	
+				</div>
+				
+				<span class="date">
+					<img  class="icon"src="images/icon/author.png" alt=""/>
+					<span class="author">Weico</span>
+					
+					<img  class="icon"src="images/icon/time.png" alt=""/>
+					<span class="time">3days ago</span>
+					
+					<img  class="icon"src="images/icon/comment.png" alt=""/>
+					<span class="comment">32</span>
+					
+					<img  class="icon"src="images/icon/prase.png" alt=""/>
+					<span class="prase">1247</span>
+				</span>
+			   </div>				
+		   </div>
+		</div>
+		<div id="articles" > 
+			  <!-- 标题 -->
+			  <div class="sTitle"><a href="趣味杂食.html">趣味杂食</a></div>
+		</div>
+		<div class="row clearfix" style="border-bottom: 1px dotted">	
+			<!-- 大图片框 -->
+			   <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 column  ">
+			       <div class="art_card2">
+				<div class="pic_box">
+					<img class="pic_card"src="img/p42.jpg" alt=""/>
+				</div>
+				
+				<div class="intro">
+					<a href="#"><h1>C/C++趣味编程经典100例详解</h1></a>
+					<p>1.绘制余弦曲线 
+					在屏幕上用“*”显示0~360度的余弦函数cos(x)曲线 
+					*问题分析与算法设计
+					如果在程序中使用数组的话，这个问题十分简单。但若规定不能使用数组，问题就变得不容易了。
+					</p>
+				</div>
+			       </div>
+		       </div>
+		     
+		    <div style="float:left" class="col-lg-5  column  ">
+			<!-- 小图片框1 -->
+			   <div class="art_card1 ">
+				<div class="pic_box">
+					<img class="pic_card"src="img/passage21.jpg" alt=""/>
+				</div>
+		
+				<div class="intro">
+					<div class="intro">
+					<a href="passage2.html"><h2>一些有趣的flash插件</h2></a>
+					<p>分享一些有趣的flash插件，可应用于网页设计中。
+					</p>
+				</div>
+				</div>
+				
+				<span class="date">
+					<img  class="icon"src="images/icon/author.png" alt=""/>
+					<span class="author">Weico</span>
+					
+					<img  class="icon"src="images/icon/time.png" alt=""/>
+					<span class="time">2days ago</span>
+					
+					<img  class="icon"src="images/icon/comment.png" alt=""/>
+					<span class="comment">23</span>
+					
+					<img  class="icon"src="images/icon/prase.png" alt=""/>
+					<span class="prase">999</span>
+				</span>
+			   </div>		
+		      
+			<!-- 小图片框2 -->
+			   <div class="art_card1">
+				<div class="pic_box">
+					<img class="pic_card" src="img/p45.jpg" alt=""/>
+				</div>
+		
+				<div class="intro">
+					<a href="#"><h2>历史惊人相似？谈Intel与高通的发展轨迹</h2></a>
+					<p>Intel，CPU界霸主。高通，移动CPU界巨头。Intel与高通，在各自的CPU市场呼风唤雨，却同样经历着一样的失误。是什么失误，让这两位主宰者碰壁？
+					</p>
+				</div>
+				
+				<span class="date">
+					<img  class="icon"src="images/icon/author.png" alt=""/>
+					<span class="author">Weico</span>
+					
+					<img  class="icon"src="images/icon/time.png" alt=""/>
+					<span class="time">3days ago</span>
+					
+					<img  class="icon"src="images/icon/comment.png" alt=""/>
+					<span class="comment">32</span>
+					
+					<img  class="icon"src="images/icon/prase.png" alt=""/>
+					<span class="prase">1247</span>
+				</span>
+			   </div>			
+			<!-- 小图片框3 -->
+			   <div class="art_card1">
+				<div class="pic_box">
+					<img class="pic_card" src="img/p44.jpg" alt=""/>
+				</div>
+		        <div class="intro">
+				<a href="#"><h2>蓝色巨人IBM的百年发展史</h2></a>
+					<p>新加坡一位资深电脑专栏作家曾经写道： “谈电脑，不能不谈IBM。”
+					另一位日本电脑专家则更明确地断言： “电脑的历史，就是IBM的历史。”
+					</p>
+				</div>
+				<span class="date">
+					<img  class="icon"src="images/icon/author.png" alt=""/>
+					<span class="author">Weico</span>
+					
+					<img  class="icon"src="images/icon/time.png" alt=""/>
+					<span class="time">4days ago</span>
+					
+					<img  class="icon"src="images/icon/comment.png" alt=""/>
+					<span class="comment">29</span>
+					
+					<img  class="icon"src="images/icon/prase.png" alt=""/>
+					<span class="prase">923</span>
+				</span>
+			   </div>		
+		   </div>
+		</div>
+    </div>
+
+
+
+	<div class="row ">
+		<div class="col-md-12 column ">
+			<nav class="navbar navbar-default  navbar1-default" role="navigation">
+					<div class="nav navbar-nav navbar1-nav">
+					    </br>
+					    <div style="font-size: 1.1em;color: white;">&nbsp&nbsp&nbsp&nbspFollow Us&nbsp
+					    <span><img src="img/wechat.png" alt="wechat" width="25" height="25"></span>
+					    <span><img src="img/facebook.png" alt="facebook" width="25" height="25"></span>
+					    <span><img src="img/ins.png" alt="ins" width="25" height="25"></span>
+					    <span><img src="img/youtube.png" alt="youtube" width="25" height="25"></span>
+					    </div>
+					</div>	
+			</nav>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+   
+</html>
